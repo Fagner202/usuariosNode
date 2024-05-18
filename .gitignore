@@ -1,0 +1,6 @@
+# Diretório da dependência do npm
+node_modules/
+
+# Arquivos de lock
+package-lock.json
+yarn.lock
