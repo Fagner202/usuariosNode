@@ -22,7 +22,8 @@ router.post('/', (req, res) => {
     if (error) {
       return res.status(500).send('Erro ao adicionar usuário');
     }
-    res.status(201).send('Usuário adicionado com sucesso');
+    // res.redirect('/usuarios');
+    res.redirect('/cadastro');
   });
 });
 
